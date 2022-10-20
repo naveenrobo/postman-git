@@ -10,7 +10,6 @@ files[] = {"id":"4101133-ef285c79-69ee-44aa-bcf7-6a269e185447","path":"Simple AP
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"index Copy.yaml","metaData":{}}
 files[] = {"path":"index.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]

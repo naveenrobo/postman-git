@@ -21,12 +21,14 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/",
+					"raw": "{{baseUrl}}/api/v1/login",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
-						""
+						"api",
+						"v1",
+						"login"
 					]
 				}
 			},

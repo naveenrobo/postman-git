@@ -21,7 +21,7 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/",
+					"raw": "{{baseUrl}}/hello123",
 					"host": [
 						"{{baseUrl}}"
 					],

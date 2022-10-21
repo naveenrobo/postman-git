@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "ef285c79-69ee-44aa-bcf7-6a269e185447",
-		"name": "Simple API overview",
+		"_postman_id": "e7843653-3f7f-40f6-a5e1-a6b589b2d375",
+		"name": "Simple API Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "4101133-ef285c79-69ee-44aa-bcf7-6a269e185447"
+		"_uid": "4101133-e7843653-3f7f-40f6-a5e1-a6b589b2d375"
 	},
 	"item": [
 		{
 			"name": "List API versions",
-			"id": "7b7643bb-9808-4e24-ab44-7fd6e9c50157",
+			"id": "eb68a014-fb8a-42ce-96bc-c6869de54223",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -21,29 +21,22 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/api/v1/login",
+					"raw": "{{baseUrl}}/",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
-						"api",
-						"v1",
-						"login"
+						""
 					]
 				}
 			},
 			"response": [
 				{
-					"id": "f274587e-3f36-48a2-a969-f3b493024939",
+					"id": "8467163d-905d-4137-978b-0e394fa456f0",
 					"name": "200 response",
 					"originalRequest": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json"
-							}
-						],
+						"header": [],
 						"url": {
 							"raw": "{{baseUrl}}/",
 							"host": [
@@ -67,16 +60,11 @@
 					"body": "{\n  \"versions\": [\n    {\n      \"status\": \"CURRENT\",\n      \"updated\": \"2011-01-21T11:33:21Z\",\n      \"id\": \"v2.0\",\n      \"links\": [\n        {\n          \"href\": \"http://127.0.0.1:8774/v2/\",\n          \"rel\": \"self\"\n        }\n      ]\n    },\n    {\n      \"status\": \"EXPERIMENTAL\",\n      \"updated\": \"2013-07-23T11:33:21Z\",\n      \"id\": \"v3.0\",\n      \"links\": [\n        {\n          \"href\": \"http://127.0.0.1:8774/v3/\",\n          \"rel\": \"self\"\n        }\n      ]\n    }\n  ]\n}"
 				},
 				{
-					"id": "d1e0621e-e41d-46b1-898d-222fd4941fbe",
+					"id": "6e9c0ff9-d86e-44b6-846a-d16833884abe",
 					"name": "300 response",
 					"originalRequest": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json"
-							}
-						],
+						"header": [],
 						"url": {
 							"raw": "{{baseUrl}}/",
 							"host": [
@@ -103,7 +91,7 @@
 		},
 		{
 			"name": "Show API version details",
-			"id": "c925ecd9-cbae-49cc-b2f5-6fa467866cde",
+			"id": "62d0fac4-68fd-4433-81cf-b9ed6a57ee64",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -127,16 +115,11 @@
 			},
 			"response": [
 				{
-					"id": "ad29a780-0bab-486a-af14-5baa2c23a07a",
+					"id": "d8e5c827-72e5-4208-9827-92a1b0df4219",
 					"name": "200 response",
 					"originalRequest": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json"
-							}
-						],
+						"header": [],
 						"url": {
 							"raw": "{{baseUrl}}/v2",
 							"host": [
@@ -160,16 +143,11 @@
 					"body": "{\n  \"version\": {\n    \"status\": \"CURRENT\",\n    \"updated\": \"2011-01-21T11:33:21Z\",\n    \"media-types\": [\n      {\n        \"base\": \"application/xml\",\n        \"type\": \"application/vnd.openstack.compute+xml;version=2\"\n      },\n      {\n        \"base\": \"application/json\",\n        \"type\": \"application/vnd.openstack.compute+json;version=2\"\n      }\n    ],\n    \"id\": \"v2.0\",\n    \"links\": [\n      {\n        \"href\": \"http://127.0.0.1:8774/v2/\",\n        \"rel\": \"self\"\n      },\n      {\n        \"href\": \"http://docs.openstack.org/api/openstack-compute/2/os-compute-devguide-2.pdf\",\n        \"type\": \"application/pdf\",\n        \"rel\": \"describedby\"\n      },\n      {\n        \"href\": \"http://docs.openstack.org/api/openstack-compute/2/wadl/os-compute-2.wadl\",\n        \"type\": \"application/vnd.sun.wadl+xml\",\n        \"rel\": \"describedby\"\n      },\n      {\n        \"href\": \"http://docs.openstack.org/api/openstack-compute/2/wadl/os-compute-2.wadl\",\n        \"type\": \"application/vnd.sun.wadl+xml\",\n        \"rel\": \"describedby\"\n      }\n    ]\n  }\n}"
 				},
 				{
-					"id": "17869368-7a58-46c0-b42a-7639870942ef",
+					"id": "66b3c99f-73d5-4635-92ba-18aadbbda889",
 					"name": "203 response",
 					"originalRequest": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json"
-							}
-						],
+						"header": [],
 						"url": {
 							"raw": "{{baseUrl}}/v2",
 							"host": [
@@ -197,7 +175,7 @@
 	],
 	"variable": [
 		{
-			"id": "34f1db0a-d136-47c2-99e3-bcc2b697c238",
+			"id": "d4b6db08-c2fa-4cb1-a510-ce6e107a2b40",
 			"key": "baseUrl",
 			"value": "/",
 			"type": "string"

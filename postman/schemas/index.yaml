@@ -5,8 +5,8 @@ info:
 paths:
   /hello123:
     get:
-      operationId: listVersionsv2
-      summary: List API versions
+      operationId: listVersionsv2123
+      summary: List API versions 11212
       responses:
         '200':
           description: |-
